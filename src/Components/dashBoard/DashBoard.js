@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
 import ProfileCompletion from "../profileCompletion/ProfileCompletion";
+import SearchBar from "../searchBar/SearchBar";
 import "./dashBoard.css";
 
 export default function DashBoard()
@@ -15,13 +16,11 @@ export default function DashBoard()
                         {/* here jsx for timeline that is profile completion will be placed */}
                         <ProfileCompletion />
                            
+                    </div>    
+                    <div className="rightcol col-lg-10 p-4 col-md-12">
+                        <SearchBar />     
                     </div>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" />
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button">Button</button>
-                        </div>
-                    </div>
+                             
                 </div>
             </div>
         </ div>
