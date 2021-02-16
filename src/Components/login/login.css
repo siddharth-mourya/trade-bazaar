@@ -1,0 +1,79 @@
+
+.row
+{
+    height: 100vh;
+}
+.leftcol{
+    background-color: #FBFBFF ;
+}
+#login_page .rightcol
+{
+    background-color: white ;
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+.leftcol img{
+    width: auto;
+    height: 200px;
+    margin-left: -20px;
+}
+.leftcol h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #2E384D;
+
+}
+.leftcol p
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140.62%;
+    /* or 25px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #2E384D;
+}
+#login_page .rightcol p:first{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #2E384D;
+}
+
+button[type=submit]{
+    background-color: #721B65;
+    color: white;
+}
+.below-forgot
+{
+    border: 1px solid #CFCBCF;
+}
+.signup_link
+{
+    color: #721B65;
+}
+
+@media only screen and (max-width: 575px) {
+    .leftcol{
+        display: none; 
+   }
+   #login_page .rightcol{
+    padding: 20%;
+}
+}
+
+
+  

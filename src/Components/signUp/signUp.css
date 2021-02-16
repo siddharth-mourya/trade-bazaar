@@ -1,0 +1,161 @@
+/* 
+Had to design every element using css styling done in figma so i.e. too much css done ,
+ In this case i find bootstrap just used to position components 
+ 1. had to make a media query as well as left col was not collapsing on screen resizig
+ 2. or saperator is just an illusion of two sticks beside or
+ 3. first row is made 100vh and 
+    left col is fixed components are centered using flex , 
+    right col is made absolute and right property is zero so screen in divided in two scrolling and fixed
+ 4. Had used Phoneinput library and found out classes on input feild using inspect element in chrome after rendering it once,
+    changed input with same css that other figma input had
+ */
+
+.row
+{
+    min-height: 100vh;
+}
+#social_signup
+{
+    background-color: #F4F6FC ;
+    line-height: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+#social_signup img
+{
+    width: 20px;
+    height: 20px;
+}
+.or-seperator {
+    margin: 20px 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.or-seperator i {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2E384D;
+    padding: 10px;
+    background: #fff;
+    position: relative;
+    top: -13px;
+}
+
+#sign_page .rightcol {
+    right: 0;
+    position: absolute;
+    padding: 10% 0;
+}
+.leftcol{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #FBFBFF ;
+
+}
+.leftcol img{
+    width: auto;
+    height: 200px;
+    margin-left: -20px;
+}
+.leftcol h5{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #2E384D;
+
+}
+.leftcol p
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140.62%;
+    /* or 25px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #2E384D;
+}
+#sign_page .rightcol p , label , Link
+{
+    font-family: Montserrat;
+    color: #2E384D;
+    font-style: normal;
+}
+input
+{
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.password-check p
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2E384D;
+}
+
+
+button[type=submit]{
+    background-color: #721B65;
+    color: white;
+    font-weight: bold;
+}
+.after_form
+{
+    border: 1px solid #CFCBCF;
+}
+.signup_link
+{
+    color: #721B65;
+}
+
+
+
+/* phone css got classes by inspect element after final html is made up */
+.PhoneInput {
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    border: 1px solid #CFCBCF; 
+    box-sizing: border-box; 
+    border-radius: 4px;
+}
+.PhoneInputInput
+{
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.PhoneInputInput:focus
+{
+    outline: none !important;
+}
+
+@media only screen and (max-width: 575px) {
+    .leftcol{
+        display: none; 
+   }
+   #sign_page .rightcol{
+       padding: 20%;
+   }
+}
+
