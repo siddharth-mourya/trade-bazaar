@@ -7,3 +7,7 @@
 .search-bar .form-control{
     padding-left: 2rem;
 }
+.search-bar  input
+{
+    border-radius: 6px !important;
+}

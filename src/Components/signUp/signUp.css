@@ -48,6 +48,7 @@ Had to design every element using css styling done in figma so i.e. too much css
     right: 0;
     position: absolute;
     padding: 10% 0;
+    background-color: #FBFBFF ;
 }
 .leftcol{
     width: 100%;

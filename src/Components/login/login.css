@@ -1,9 +1,8 @@
-
-.row
+#login_page  .row
 {
     height: 100vh;
 }
-.leftcol{
+#login_page  .leftcol{
     background-color: #FBFBFF ;
 }
 #login_page .rightcol

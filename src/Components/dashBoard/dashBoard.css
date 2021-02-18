@@ -10,3 +10,46 @@ p{
     line-height: 17px;
     color: #2E384D;
 }
+.text-grey
+{
+    font-family: Montserrat;
+    font-style: normal;
+    color: #2E384D;
+}
+
+.text-bold-grey
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: #2E384D;
+}
+
+.text-violet
+{
+    font-family: Montserrat;
+    font-style: normal;
+    color: #721B65;
+}
+
+.text-bold-violet
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: #721B65;
+}
+
+.dashboard-wrapper .right-col
+{
+    background-color: #FBFBFF !important;
+}
+.dashboard-wrapper .left-col
+{
+    background-color: #FBFBFF !important;
+}
+
+.discover_companies_wrapper
+{
+    width: 101.2%;
+}

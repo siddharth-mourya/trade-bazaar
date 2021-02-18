@@ -1,0 +1,88 @@
+
+/* table */
+#inventory_heading p
+{
+    font-size: 22px;
+    line-height: 27px;
+}
+
+#inventory_heading button
+{
+    width: 98px;
+    height: 34px;
+    border: 1px solid #721B65;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    background-color:#fbfbff ;
+    font-size: 14px;
+    line-height: 17px;
+}
+#inventory_heading button:hover
+{
+    background-color:#721B65 ;
+    color: white;
+}
+
+#inventory_table .table-responsive
+{
+    background: #FFFFFF;
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#inventory_table thead
+{
+    margin: 20px 0;
+}
+#inventory_table thead th
+{
+    vertical-align: middle;
+}
+#inventory_table .table td, .table th 
+{
+    padding: 1rem;
+}
+#inventory_table th{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #721B65;
+}
+#inventory_table .table-responsive .company_name_table
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2E384D;
+
+}
+#inventory_table td span{
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #2E384D;
+
+}
+#inventory_table td{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2E384D;
+    vertical-align: middle !important;
+    margin: 0;
+}
+#inventory_table table{
+  margin-bottom: 0;
+}

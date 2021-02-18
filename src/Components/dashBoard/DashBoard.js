@@ -1,4 +1,6 @@
 import React from "react";
+import DiscoverCompanies from "../discoverCompanies/DiscoverCompanies";
+import InventoryTable from "../inventoryTable/InventoryTable";
 import Navbar from "../navbar/Navbar";
 import ProfileCompletion from "../profileCompletion/ProfileCompletion";
 import SearchBar from "../searchBar/SearchBar";
@@ -17,8 +19,14 @@ export default function DashBoard()
                         <ProfileCompletion />
                            
                     </div>    
-                    <div className="rightcol col-lg-10 p-4 col-md-12">
+                    <div className="rightcol col-lg-10 pl-4 pt-4 col-md-12">
                         <SearchBar />     
+                        <br />
+                        <InventoryTable />
+                        <br />
+                        <DiscoverCompanies />
+                    
+                        <br />
                     </div>
                              
                 </div>

@@ -11,6 +11,7 @@ ul li p{
 }
 ul li > div i{
     color: #2E384D !important;
+    cursor: pointer;
 }
 .timeline-wrapper
 {
