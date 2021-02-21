@@ -1,3 +1,154 @@
+/* common css */
+/* .p-14-17-600-gray   ->  p-fontsize-lineheight-fontweight-color */
+
+
+.p-10-12-600-gray
+{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2E384D;
+}
+
+.p-12-15-500-gray
+{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2E384D;
+}
+
+.p-12-15-600-gray
+{
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2E384D;
+}
+
+.p-14-17-normal-gray
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2E384D;
+}
+
+.p-14-17-bold-gray
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2E384D;
+}
+
+.p-14-17-500-gray
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2E384D;
+}
+.p-14-17-600-gray
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2E384D;
+}
+
+.p-14-20-bold-gray
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #2E384D;
+}
+
+.p-14-20-700-gray
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #2E384D;
+}
+
+
+.p-16-20-bold-gray
+{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #2E384D;
+}
+.p-16-20-600-violet
+{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #721B65 !important;
+}
+.p-18-20-600-gray
+{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #2E384D !important;
+}
+
+.p-18-20-600-violet
+{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #721B65 !important;
+}
+
+.p-22-27-bold-gray
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #2E384D;
+}
+
 
 /* scrollbar */
 
@@ -17,3 +168,4 @@
   ::-webkit-scrollbar-thumb:hover {
     background-color: #fff;
   } */
+

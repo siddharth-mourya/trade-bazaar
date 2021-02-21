@@ -1,0 +1,49 @@
+.companycard
+{
+    background: #FFFFFF;
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 50px #EAEEFA;
+    border-radius: 10px;
+    max-width: 16rem;
+}
+.companycard .company_name
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2E384D;
+
+}
+
+.companycard  span{
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #2E384D;
+}
+
+
+@media only screen and (max-width: 1057px) {
+    .companycard
+    {
+        max-width: 15rem;
+    }
+  }
+@media only screen and (max-width: 678px) {
+    .companycard
+    {
+        max-width: 45%;
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    .companycard
+    {
+        max-width: 100%;
+    }
+  }

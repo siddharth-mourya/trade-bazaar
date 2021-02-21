@@ -1,0 +1,17 @@
+.filter_companies_wrapper
+{
+    
+    height: fit-content;
+    border-radius: 10px;
+    border: 1px solid #CFCBCF;
+}
+.filter_companies_wrapper hr
+{
+    margin-top: 0px;
+}
+
+.filter_companies_wrapper img
+{
+    width: 16px;
+    height: 16px;
+}

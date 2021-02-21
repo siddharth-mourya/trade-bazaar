@@ -1,0 +1,71 @@
+.followed_company_card .card-header
+{
+    border-radius: 10px 10px 0 0;
+    background-color: #FBFBFF;
+}
+
+/* hover window csss */
+.followed_company_card:hover .card-body
+{
+    padding: 0 !important;
+}
+.followed_company_card:hover .hover-window
+{
+    display: flex;
+}
+.followed_company_card .hover-window button
+{
+    background: #721B65;
+    border-radius: 4px;
+    width: 70%;
+}
+
+.followed_company_card .hover-window
+{
+    display: none;
+    width: 100%;
+    border-radius: 0 0 10px 10px ;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+/* card css */
+.followed_company_card
+{
+    background: #FFFFFF;
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 50px #EAEEFA;
+    border-radius: 10px;
+    max-width: 16rem;
+}
+
+.followed_company_card  span{
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #2E384D;
+}
+
+@media only screen and (max-width: 1057px) {
+    .followed_company_card
+    {
+        max-width: 15rem;
+    }
+  }
+@media only screen and (max-width: 678px) {
+    .followed_company_card
+    {
+        max-width: 45%;
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    .followed_company_card
+    {
+        max-width: 100%;
+    }
+  }

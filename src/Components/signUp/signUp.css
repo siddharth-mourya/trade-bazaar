@@ -10,7 +10,7 @@ Had to design every element using css styling done in figma so i.e. too much css
     changed input with same css that other figma input had
  */
 
-.row
+#sign_page .row
 {
     min-height: 100vh;
 }
@@ -50,19 +50,19 @@ Had to design every element using css styling done in figma so i.e. too much css
     padding: 10% 0;
     background-color: #FBFBFF ;
 }
-.leftcol{
+#sign_page .leftcol{
     width: 100%;
     height: 100%;
     position: fixed;
     background-color: #FBFBFF ;
 
 }
-.leftcol img{
+#sign_page .leftcol img{
     width: auto;
     height: 200px;
     margin-left: -20px;
 }
-.leftcol h5{
+#sign_page .leftcol h5{
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -74,7 +74,7 @@ Had to design every element using css styling done in figma so i.e. too much css
     color: #2E384D;
 
 }
-.leftcol p
+#sign_page .leftcol p
 {
     font-family: Montserrat;
     font-style: normal;
@@ -94,14 +94,14 @@ Had to design every element using css styling done in figma so i.e. too much css
     color: #2E384D;
     font-style: normal;
 }
-input
+#sign_page input
 {
     border: 1px solid #CFCBCF;
     box-sizing: border-box;
     border-radius: 4px;
 }
 
-.password-check p
+#sign_page .password-check p
 {
     font-family: Montserrat;
     font-style: normal;
@@ -112,16 +112,16 @@ input
 }
 
 
-button[type=submit]{
+#sign_page button[type=submit]{
     background-color: #721B65;
     color: white;
     font-weight: bold;
 }
-.after_form
+#sign_page .after_form
 {
     border: 1px solid #CFCBCF;
 }
-.signup_link
+#sign_page .signup_link
 {
     color: #721B65;
 }
@@ -129,7 +129,7 @@ button[type=submit]{
 
 
 /* phone css got classes by inspect element after final html is made up */
-.PhoneInput {
+#sign_page .PhoneInput {
     display: flex;
     align-items: center;
     padding: .375rem .75rem;
@@ -137,7 +137,7 @@ button[type=submit]{
     box-sizing: border-box; 
     border-radius: 4px;
 }
-.PhoneInputInput
+#sign_page .PhoneInputInput
 {
     border: none;
     font-family: Montserrat;
@@ -152,7 +152,7 @@ button[type=submit]{
 }
 
 @media only screen and (max-width: 575px) {
-    .leftcol{
+    #sign_page .leftcol{
         display: none; 
    }
    #sign_page .rightcol{

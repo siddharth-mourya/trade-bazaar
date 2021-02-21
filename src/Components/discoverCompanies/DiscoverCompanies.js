@@ -8,7 +8,7 @@ export default function DiscoverCompanies()
         <div id="discover_companies_wrapper" className="pl-4 pt-4 discover_companies_wrapper">
             <div className="d-flex justify-content-between">
                 <p> Discover Compaines</p>
-                <button className="text-violet">View all</button>
+                <button className="text-violet mr-3">View all</button>
             </div>
             <div className="d-flex pb-4 overflow-auto">
                 

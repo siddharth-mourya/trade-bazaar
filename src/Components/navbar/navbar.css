@@ -1,8 +1,8 @@
-nav{
+.navbar-top nav{
     background-color: #721B65;
 }
 
-nav .navbar-brand
+.navbar-top nav .navbar-brand
 {
     width:auto;
     height:42px;
@@ -15,36 +15,36 @@ nav .navbar-brand
   .custom-toggler.navbar-toggler {
     border-color: rgb(255,102,203);
   } 
-nav ul li a {
+  .navbar-top nav ul li a {
     color:white;
 }
-.nav-item
+.navbar-top .nav-item
 {
     margin: 0 5px;
 }
-.nav-item:hover
+.navbar-top .nav-item:hover
 {
     background-color: white;
     border-radius: 10px;
 }
-.nav-item:hover  a
+.navbar-top .nav-item:hover  a
 {
     color: #721B65 !important ;
 }
-.nav-item .nav-link
+.navbar-top .nav-item .nav-link
 {
     text-align:center;
 }
-nav .active{
+.navbar-top nav .active{
     background-color: white;
     border-radius: 10px;
     color: #721B65 !important ;
 }
-nav .active a{
+.navbar-top nav .active a{
     color: hsl(309, 62%, 28%) ;
 }
 
-nav #right-icons a
+.navbar-top nav #right-icons a
 {
     margin: 5px 10px;
     color: white;

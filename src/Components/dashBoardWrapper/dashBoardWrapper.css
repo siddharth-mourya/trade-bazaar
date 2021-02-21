@@ -53,3 +53,39 @@ p{
 {
     width: 101.2%;
 }
+
+
+/* news */
+
+/* table */
+#dashboard_news_heading p
+{
+    font-size: 22px;
+    line-height: 27px;
+}
+
+#dashboard_news_heading button
+{
+    width: 98px;
+    height: 34px;
+    border: 1px solid #721B65;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    background-color:#fbfbff ;
+    font-size: 14px;
+    line-height: 17px;
+}
+#dashboard_news_heading button:hover
+{
+    background-color:#721B65 ;
+    color: white;
+}
+
+#dashboard_news {
+   margin: 0;
+   max-width: 100%;
+   background-color: #fbfbff; 
+}
