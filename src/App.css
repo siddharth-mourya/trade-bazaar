@@ -64,6 +64,15 @@
     line-height: 17px;
     color: #2E384D;
 }
+.p-14-17-500-violet
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #721B65;
+}
 .p-14-17-600-gray
 {
     font-family: Montserrat;
@@ -79,10 +88,30 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     text-align: center;
     color: #2E384D;
+}
+.p-14-20-500-gray
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2E384D;
+}
+
+.p-14-20-bold-violet
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #721B65;
 }
 
 .p-14-20-700-gray
@@ -90,7 +119,7 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     text-align: center;
     color: #2E384D;
@@ -104,7 +133,6 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  text-align: center;
   color: #2E384D;
 }
 .p-16-20-600-violet
@@ -124,7 +152,6 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 20px;
-  text-align: center;
   color: #2E384D !important;
 }
 
@@ -135,9 +162,19 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 20px;
-  text-align: center;
   color: #721B65 !important;
 }
+
+.p-18-22-bold-gray
+{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2E384D !important;
+}
+
 
 .p-22-27-bold-gray
 {
@@ -147,6 +184,50 @@
     font-size: 22px;
     line-height: 27px;
     color: #2E384D;
+}
+
+/* button css */
+.btn-solid-violet-white
+{
+  background: #721B65;
+  border-radius: 4px !important;
+  color: white;
+}
+.btn-solid-violet-white:hover
+{
+background:#2E384D;
+transition: 0.4s;
+color: white;
+}
+
+.btn-w180-h48
+{
+  width: 140px;
+  height: 40px;
+}
+
+
+/* phone css got classes by inspect element after final html is made up */
+ .PhoneInput {
+  display: flex;
+  align-items: center;
+  padding: .375rem .75rem;
+  border: 1px solid #CFCBCF; 
+  box-sizing: border-box; 
+  border-radius: 4px;
+}
+.PhoneInputInput
+{
+  border: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.PhoneInputInput:focus
+{
+  outline: none !important;
 }
 
 

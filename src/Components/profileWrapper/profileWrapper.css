@@ -12,7 +12,46 @@
     border-radius: 10px;
 }
 
+/* category */
+.profile-category-wrapper
+{
+    min-width: -webkit-fill-available;
+    background: #FFFFFF;
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: fit-content;
+}
+.profile-category-wrapper > div
+{
+    border-radius: 0;
+}
+.profile-category-wrapper .list-group-item 
+{
+    border: none;
+    margin: 5px 0;
+    padding: 5px 15px;
+}
+.profile-category-wrapper a.active
+{
+    border-left: 5px solid #733165;
+    color: #733165;
+    background: transparent;
+    padding-left: 9px;
+}
+
+
 /* breadcrumbs */
+.profile-breadcrumbs 
+{
+    margin-top:20px;
+    margin-left:5px;
+    margin-right: 10px;
+}
+.profile-breadcrumbs ol
+{
+    margin-bottom: 0;
+}
 .profile-breadcrumbs .breadcrumb-item:not(:first-child)::before
 {
     display: inline-block;
@@ -31,6 +70,57 @@
 }
 
 /* forms */
+
+.profile-form input[type=file] {
+    position: absolute;
+    opacity: 0;
+    width: -webkit-fill-available;
+    top: 0;
+}
+.pic-upload-div input:hover{
+    cursor: pointer !important;
+}
+.profile-form label{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2E384D;
+}
+
+/* notification in form */
+.notification{
+    margin-bottom: 1rem;
+}
+.profile-form  .notification  label{
+    margin-bottom: 0 !important;
+}
+.profile-form  .notification input{
+    width: 20px;
+    height: 20px;
+}
+.profile-form  .notification .col{
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 0.5rem 1rem !important;
+}
+
+/* right to form banner */
+.profile-form-right-banner div
+{
+    padding: 3vw;
+    margin: 3vw;
+}
+.profile-form-right-banner img
+{
+    width: auto;
+    height: 100px;
+}
+
 .follow-companies-wrapper .dicoverCompanies-wrapper  button.text-violet
 {
     width: 98px;
