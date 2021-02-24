@@ -1,0 +1,54 @@
+
+/* forms */
+
+.profile-form input[type=file] {
+    position: absolute;
+    opacity: 0;
+    width: -webkit-fill-available;
+    top: 0;
+}
+.pic-upload-div input:hover{
+    cursor: pointer !important;
+}
+.profile-form label{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2E384D;
+}
+
+/* notification in form */
+.notification{
+    margin-bottom: 1rem;
+}
+.profile-form  .notification  label{
+    margin-bottom: 0 !important;
+}
+.profile-form  .notification input{
+    width: 20px;
+    height: 20px;
+}
+.profile-form  .notification .col{
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 0.5rem 1rem !important;
+}
+
+
+/* right to form banner */
+.profile-form-right-banner div
+{
+    padding: 3vw;
+    margin: 3vw;
+    border-radius: 22px;
+}
+.profile-form-right-banner img
+{
+    width: auto;
+    height: 100px;
+}

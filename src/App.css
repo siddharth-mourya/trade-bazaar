@@ -1,6 +1,10 @@
 /* common css */
 /* .p-14-17-600-gray   ->  p-fontsize-lineheight-fontweight-color */
 
+.bg-gray
+{
+  background-color:#2E384D ;
+}
 
 .p-10-12-600-gray
 {
@@ -175,6 +179,15 @@
   color: #2E384D !important;
 }
 
+.p-22-20-bold-gray
+{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 20px;
+color: #2E384D;
+}
 
 .p-22-27-bold-gray
 {

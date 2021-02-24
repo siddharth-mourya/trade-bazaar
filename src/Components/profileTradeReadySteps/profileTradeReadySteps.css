@@ -1,0 +1,70 @@
+/* trs tabs */
+.trs-tabs .nav-link
+{
+    white-space: nowrap;
+}
+.trs-tabs .active
+{
+   color:#721B65;
+}
+
+/* choose Role form */
+.role{
+    margin-bottom: 1rem;
+}
+.trs1-form  .role  label{
+    margin-bottom: 0 !important;
+}
+.trs1-form  .role input{
+    width: 20px;
+    height: 20px;
+}
+.trs1-form  .role .col-12{
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 0.5rem 1rem !important;
+}
+
+.trs4-form  .role  label{
+    margin-bottom: 0 !important;
+}
+.trs4-form  .role input{
+    width: 20px;
+    height: 20px;
+}
+.trs4-form  .role .col-12{
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 0.5rem 1rem !important;
+}
+.trs4-form  .col{
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 0.5rem 1rem !important;
+}
+
+
+/* right to trs1 form banner */
+
+.trs-form-right-banner div
+{
+    padding: 3vw;
+    margin: 0 3vw;
+    border-radius: 22px;
+}
+.trs-form-right-banner img
+{
+    width: auto;
+    height: 100px;
+}
+.trs-form-right-banner iframe
+{
+    width: 200px;
+    height: 100px;
+}
