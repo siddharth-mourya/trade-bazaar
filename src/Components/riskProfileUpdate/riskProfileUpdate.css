@@ -1,0 +1,8 @@
+/* risk_profile_heading_row */
+.risk_profile_heading_row {
+    border-radius: 10px;
+}
+.risk_profile_heading_row img {
+    width: 200px;
+    height: auto;
+}

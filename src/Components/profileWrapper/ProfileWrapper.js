@@ -2,6 +2,9 @@ import React , {useEffect , useState} from "react";
 import "./profileWrapper.css";
 import ProfileUpdateForm from "../profileUpdateForm/ProfileUpdateForm";
 import ProfileTradeReadySteps from "../profileTradeReadySteps/ProfileTradeReadySteps";
+import RiskProfileUpdate from "../riskProfileUpdate/RiskProfileUpdate";
+import ProfileChangePassword from "../profileChangePassword/ProfileChangePassword";
+import ProfileAddCompany from "../profileAddCompany/ProfileAddCompany";
 
 export default function ProfileWrapper()
 {
@@ -101,13 +104,17 @@ export default function ProfileWrapper()
                                 <div class="tab-pane fade" id="trade-ready-steps" role="tabpanel" aria-labelledby="trade-ready-steps-list">
                                     <ProfileTradeReadySteps />
                                 </div>
-                                <div class="tab-pane fade" id="risk-profile" role="tabpanel" aria-labelledby="risk-profile-list">...</div>
-                                <div class="tab-pane fade" id="add-company" role="tabpanel" aria-labelledby="add-company-list">...</div>
-                                <div class="tab-pane fade" id="change-password" role="tabpanel" aria-labelledby="change-password-list">...</div>
+                                <div class="tab-pane fade" id="risk-profile" role="tabpanel" aria-labelledby="risk-profile-list">
+                                    <RiskProfileUpdate />
+                                </div>
+                                <div class="tab-pane fade" id="add-company" role="tabpanel" aria-labelledby="add-company-list">
+                                    <ProfileAddCompany />
+                                </div>
+                                <div class="tab-pane fade" id="change-password" role="tabpanel" aria-labelledby="change-password-list">
+                                    <ProfileChangePassword />
+                                </div>
                             </div>
-                        </div>
-
-                   
+                        </div>                   
 
                     <br />
                     </div>

@@ -1,0 +1,13 @@
+
+/* right to form banner */
+.add-company-banner div
+{
+    padding: 3vw;
+    margin: 0 2vw;
+    border-radius: 22px;
+}
+.add-company-banner img
+{
+    width: auto;
+    height: 100px;
+}
