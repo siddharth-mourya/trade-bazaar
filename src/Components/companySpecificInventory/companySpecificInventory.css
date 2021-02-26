@@ -1,0 +1,78 @@
+/* table */
+#company_specific_inventory_heading
+{
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0 ;
+} 
+#company_specific_inventory_heading button
+{
+    padding: 10px;
+}
+
+#company_specific_inventory_heading button:hover
+{
+    background-color:#721B65 ;
+    color: white;
+}
+
+#company_specific_inventory_table.table-responsive
+{
+    background: #FFFFFF;
+    border: 1px solid #CFCBCF;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+}
+#company_specific_inventory_table thead
+{
+    margin: 20px 0;
+}
+#company_specific_inventory_table thead th
+{
+    vertical-align: middle;
+}
+#company_specific_inventory_table .table td, .table th 
+{
+    padding: 1rem;
+}
+#company_specific_inventory_table th{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #721B65;
+}
+#company_specific_inventory_table .company_name_table
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2E384D;
+
+}
+#company_specific_inventory_table td span{
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #2E384D;
+
+}
+#company_specific_inventory_table td{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2E384D;
+    vertical-align: middle !important;
+    margin: 0;
+}
+#company_specific_inventory_table table{
+  margin-bottom: 0;
+}

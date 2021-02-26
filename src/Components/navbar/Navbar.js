@@ -3,9 +3,9 @@ import './navbar.css';
 import {BrowserRouter as Router, Link  } from "react-router-dom";
 import { useEffect, useState } from 'react';
 
-export default function  Navbar()
+export default function  Navbar(props)
 {
-
+    
     let [resized , setResized ] = useState({})
 
     function getWindowDimensions() {
@@ -15,6 +15,14 @@ export default function  Navbar()
             height
             };
     }
+
+    useEffect(()=>{
+        if(props)
+        {
+            console.log(document.getElementById(props.navItem).classList);
+            document.getElementById(props.navItem).classList.add("active");
+        }
+    },[])
 
     useEffect(() => {
                 function handleResize()
@@ -61,25 +69,25 @@ export default function  Navbar()
 
                     <div class="collapse navbar-collapse" id="toggle_navbar">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="javascript:void(0)">DashBoard <span class="sr-only">(current)</span></a>
+                            <li id="dashboard" class="nav-item">
+                                <a class="nav-link" href="/dashboard">DashBoard <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="javascript:void(0)">Companies</a>
+                            <li id="companies" class="nav-item">
+                                <a class="nav-link" href="/companies">Companies</a>
                             </li>
-                            <li class="nav-item">
+                            <li id="inventory" class="nav-item">
                                 <a class="nav-link" href="javascript:void(0)">Inventory </a>
                             </li>
-                            <li class="nav-item">
+                            <li id="negotiation" class="nav-item">
                                 <a class="nav-link" href="javascript:void(0)">Negotiations </a>
                             </li>
-                            <li class="nav-item">
+                            <li id="mytransactions" class="nav-item">
                                 <a class="nav-link" href="javascript:void(0)">My Transaction</a>
                             </li>
-                            <li class="nav-item">
+                            <li id="myholdings" class="nav-item">
                                 <a class="nav-link" href="javascript:void(0)">My Holdings</a>
                             </li>
-                            <li class="nav-item">
+                            <li id="services" class="nav-item">
                                 <a class="nav-link" href="javascript:void(0)">Services</a>
                             </li>
                         </ul>

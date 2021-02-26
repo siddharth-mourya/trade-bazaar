@@ -6,6 +6,49 @@
   background-color:#2E384D ;
 }
 
+.btn-violet-text-white
+{
+  background: #721B65;
+  color:white;
+  border-radius: 5px;
+}
+.btn-violet-text-white:hover
+{
+  background-color:white;
+  color: #721B65;
+}
+
+.text-violet
+{
+    font-family: Montserrat;
+    font-style: normal;
+    color: #721B65;
+}
+
+.text-gray
+{
+    font-family: Montserrat;
+    font-style: normal;
+    color: #2E384D;
+}
+.btn-violet
+{
+  border: 1px solid #721B65;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  background-color:#fbfbff ;
+  font-size: 14px;
+  line-height: 17px;
+}
+.btn-violet:hover
+{
+  background-color:#721B65 ;
+  color: white;
+}
+
 .p-10-12-600-gray
 {
   font-family: Montserrat;
@@ -219,6 +262,11 @@ color: white;
   height: 40px;
 }
 
+/* vcolor */
+.text-violet
+{
+  color: #721B65;
+}
 
 /* phone css got classes by inspect element after final html is made up */
  .PhoneInput {
@@ -242,6 +290,21 @@ color: white;
 {
   outline: none !important;
 }
+
+
+
+/* modal custom */
+
+.modal .modal-dialog-aside{ 
+	width: 350px; max-width:80%; height: 100%; margin:0;transform: translate(0); transition: transform .2s;
+}
+.modal .modal-dialog-aside .modal-content{  height: inherit; border:0; border-radius: 0;}
+.modal .modal-dialog-aside .modal-content .modal-body{ overflow-y: auto }
+.modal.fixed-left .modal-dialog-aside{ margin-left:auto;  transform: translateX(100%); }
+.modal.fixed-right .modal-dialog-aside{ margin-right:auto; transform: translateX(-100%); }
+.modal.show .modal-dialog-aside{ transform: translateX(0);  }
+
+
 
 
 /* scrollbar */

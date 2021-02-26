@@ -72,8 +72,8 @@
 
 .follow-companies-wrapper .dicoverCompanies-wrapper  button.text-violet
 {
-    width: 98px;
-    height: 34px;
+    /* width: 98px;
+    height: 34px; */
     border: 1px solid #721B65;
     box-sizing: border-box;
     border-radius: 5px;

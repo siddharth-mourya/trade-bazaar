@@ -5,59 +5,26 @@ export default function ProfileChangePassword()
     return(
         <>
              <div className="container-fluid px-4 py-3">
-                <div className="row px-4 py-4">
-                    <div className="col-lg-6 col-md-12">
-                        <p className="p-22-27-bold-gray border-bottom mb-4 pb-2">Add company</p>
+                <div className="row px-4 pt-2">
+                    <img src="images/change-password-banner.svg" height="100"/>
+                </div>
+                <div className="row px-4 ">
+                    <div className="col-lg-6 col-md-7 col-sm-12 py-2  border-md-right">
+                        <br />
+                        <p className="p-22-27-bold-gray mb-0 pb-2">Change password</p>
                         <form className=" profile-form pb-4">
                        
                         <div class="form-group">
-                            <label for="cname">Company Name *</label>
-                            <input type="text" class="form-control" id="cname" placeholder="Juila Robert ltd." />
+                            <label for="opass">Old Password *</label>
+                            <input type="password" class="form-control" id="opass" placeholder="" />
                         </div>
                         <div class="form-group">
-                            <label for="gstin">GSTIN Number *</label>
-                            <input type="text" class="form-control" id="gstin" placeholder="1324544" />
+                            <label for="npass">New Password *</label>
+                            <input type="password" class="form-control" id="npass" placeholder="" />
                         </div>
-                     
-                        {/* address */}
-                        
                         <div class="form-group">
-                            <label for="caddress">Company Address *</label>
-                            <textarea class="form-control" id="acddress" rows="2"></textarea>
-                        </div>
-                        {/*  */}
-                        <div class="form-row">
-                            <div class="col form-group">
-                                <label for="country">Country</label>
-                                <select class="form-control" id="country">
-                                    <option>India</option>
-                                    <option>Something</option>
-                                    <option>America</option>
-                                    <option>Texas</option>
-                                    <option>UK</option>
-                                </select>
-                            </div>
-                            <div class="col form-group">
-                                <label for="country">City</label>
-                                <select class="form-control" id="country">
-                                    <option>Bhopal</option>
-                                    <option>Indore</option>
-                                    <option>Mumbai</option>
-                                    <option>Delhi</option>
-                                    <option>Raipur</option>
-                                </select>
-                            </div>
-                        </div>
-                        {/*  */}
-                        <div class="form-row">
-                            <div class="col form-group">
-                                <label for="state">State *</label>
-                                <input type="text" class="form-control" id="state" placeholder="Maharashtra" />
-                            </div>
-                            <div class="col form-group">
-                                <label for="pincode">User Id *</label>
-                                <input type="number" class="form-control" id="pincode" placeholder="463987" />
-                            </div>
+                            <label for="cnfpass">Confirm New Password *</label>
+                            <input type="password" class="form-control" id="cnfpass" placeholder="" />
                         </div>
                         <div className="d-flex justify-content-end">
                             <button className="btn btn-outline-dark btn-w180-h48 mr-2" >Cancel</button>
@@ -65,13 +32,20 @@ export default function ProfileChangePassword()
                         </div>
                         </form>
                     </div>
-                    <div className="col-lg-6 add-company-banner d-lg-block d-none ">
-                        <div className="border ">
-                            <img src="images/add_company_banner.svg" />
-                            <p className="mt-3 mb-1 p-18-22-bold-gray">Why need to add company details?</p>
-                            <p className="p-14-17-500-gray">These details are required if you want a Invoice Bill
-                                    on your company name.
-                            </p>
+                    <div className="col-lg-6 col-md-5 col-sm-12 d-flex align-items-center ">
+                        <div className="change-password-check form-group">
+                            <p id="letter" className="invalid p-14-17-500-gray"> <img src="/images/cross.svg" alt="dsf" />  Password must be 8 or more characters</p>
+                            <p id="capital" className="invalid p-14-17-500-gray"> <img src="/images/cross.svg" alt="dsf" />  Password must contain 1 or more uppercase characters.</p>
+                            <p id="number" className="invalid p-14-17-500-gray"> <img src="/images/cross.svg" alt="dsf" />  Password must contain 1 or more digit characters.</p>
+                            <p id="length" className="invalid p-14-17-500-gray"> <img src="/images/cross.svg" alt="dsf" />  Password must contain 1 or more special characters.</p>
+                                {/* <p id="letter" className="invalid"> 
+                                    { no_of_char ? <img src="/images/tick.svg" alt="dsf" /> : <img src="/images/cross.svg" alt="dsf" /> }  Password must be 8 or more characters</p>
+                                <p id="capital" className="invalid"> 
+                                    { upper_case_letter ? <img src="/images/tick.svg" alt="dsf" /> : <img src="/images/cross.svg" alt="dsf" /> } Password must contain 1 or more uppercase characters.</p>
+                                <p id="number" className="invalid">  
+                                    { digit ? <img src="/images/tick.svg" alt="dsf" /> : <img src="/images/cross.svg" alt="dsf" /> } Password must contain 1 or more digit characters.</p>
+                                <p id="length" className="invalid">  
+                                    { special_char ? <img src="/images/tick.svg" alt="dsf" /> : <img src="/images/cross.svg" alt="dsf" /> }Password must contain 1 or more special characters.</p> */}
                         </div>
                     </div>
                 </div>

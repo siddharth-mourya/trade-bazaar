@@ -6,7 +6,7 @@
 
 
 /* follow section */
-.follow-companies-wrapper .dicoverCompanies-wrapper
+.companies-wrapper .companies-list-wrapper
 {
     background: #f0f2f9;
     border-radius: 10px 0 0 10px;
@@ -14,9 +14,8 @@
 
 
 
-.follow-companies-wrapper .dicoverCompanies-wrapper  button.text-violet
+.companies-wrapper .companies-list-wrapper  button.text-violet
 {
-   
     border: 1px solid #721B65;
     box-sizing: border-box;
     border-radius: 5px;

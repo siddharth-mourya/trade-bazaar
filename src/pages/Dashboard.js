@@ -6,7 +6,7 @@ export default function DashBoard()
 {
     return(
         <>
-            <Navbar />
+            <Navbar navItem={"dashboard"} />
             <DashBoardWrapper />
         </>
     )
