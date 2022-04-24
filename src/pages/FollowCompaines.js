@@ -6,7 +6,7 @@ export default function FollowCompanies()
 {
     return(
         <>
-            <Navbar />
+            <Navbar navItem={'followed-companies'} />
             <FollowedCompaniesWrapper />
         </>
     )

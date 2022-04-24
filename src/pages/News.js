@@ -6,7 +6,7 @@ export default function News()
 {
     return(
         <>
-            <Navbar />
+            <Navbar navItem={'news'}/>
             <NewsWrapper />
         </>
     )

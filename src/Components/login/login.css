@@ -52,7 +52,7 @@
     color: #2E384D;
 }
 
-button[type=submit]{
+a.btn[type=submit]{
     background-color: #721B65;
     color: white;
 }

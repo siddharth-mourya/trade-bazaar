@@ -6,9 +6,14 @@ import SearchBar from "../searchBar/SearchBar";
 import "./dashBoardWrapper.css";
 import {v4 as uuidv4 } from 'uuid';
 import NewsCard from "../NewsCard/NewsCard";
+import { useHistory } from "react-router-dom";
 
-export default function dashBoardWrapper()
+export default function DashboardWrapper()
 {
+    const history = useHistory();
+    const handleClick = () => {
+        history.push('/news')
+    }
     return(
             <div className=" dashboard-wrapper container-fluid p-0">
                 <div className="row m-0">
@@ -28,7 +33,7 @@ export default function dashBoardWrapper()
 
                         <div id ="dashboard_news_heading" className="pt-2 pb-4 pl-1 d-flex align-items-top justify-content-between">
                             <p className="text-bold-grey"> News Updates </p>
-                            <button className="text-violet">View all</button>
+                            <button className="text-violet"  onClick={handleClick}> View all</button>
                         </div>
                         <div id="dashboard_news" className="container">
                            

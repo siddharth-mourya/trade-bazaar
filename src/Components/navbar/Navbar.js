@@ -1,6 +1,5 @@
 import React from 'react';
 import './navbar.css';
-import {BrowserRouter as Router, Link  } from "react-router-dom";
 import { useEffect, useState } from 'react';
 
 export default function  Navbar(props)
@@ -17,7 +16,7 @@ export default function  Navbar(props)
     }
 
     useEffect(()=>{
-        if(props)
+        if(props.navItem)
         {
             console.log(document.getElementById(props.navItem).classList);
             document.getElementById(props.navItem).classList.add("active");
@@ -75,25 +74,19 @@ export default function  Navbar(props)
                             <li id="companies" class="nav-item">
                                 <a class="nav-link" href="/companies">Companies</a>
                             </li>
-                            <li id="inventory" class="nav-item">
-                                <a class="nav-link" href="javascript:void(0)">Inventory </a>
+                            <li id="followed-companies" class="nav-item">
+                                <a class="nav-link" href="/followedCompanies">Followed Compaines </a>
                             </li>
-                            <li id="negotiation" class="nav-item">
-                                <a class="nav-link" href="javascript:void(0)">Negotiations </a>
+                            <li id="news" class="nav-item">
+                                <a class="nav-link" href="/news">News </a>
                             </li>
-                            <li id="mytransactions" class="nav-item">
-                                <a class="nav-link" href="javascript:void(0)">My Transaction</a>
-                            </li>
-                            <li id="myholdings" class="nav-item">
-                                <a class="nav-link" href="javascript:void(0)">My Holdings</a>
-                            </li>
-                            <li id="services" class="nav-item">
-                                <a class="nav-link" href="javascript:void(0)">Services</a>
+                            <li id="specific-company" class="nav-item">
+                                <a class="nav-link" href="/specificCompany">Specific Company</a>
                             </li>
                         </ul>
                         <div id="right-icons" className="ml-auto d-flex align-items-center h-100">
                                <a><img src="/images/notification_bell.svg"/></a>
-                               <a><img src="/images/user_profile_nav.svg"/></a>
+                               <a href="/profile"><img src="/images/user_profile_nav.svg"/></a>
                         </div>
                     </div>
                 </nav>

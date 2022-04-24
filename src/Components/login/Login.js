@@ -30,7 +30,7 @@ export default function  Login()
                                     <input type="password" class="form-control" id="password" placeholder="**************" />
                                 </div>
 
-                                <button type="submit" class="btn w-100">Submit</button>
+                                <a href="/dashboard" type="submit" class="btn w-100">Submit</a>
                             </form>
                             <div id="forgot-div" className="d-flex text-center mx-auto">
                                 <Link to="/" class="mx-auto forgot-userid text-dark">Forgot userId?</Link>

@@ -101,7 +101,7 @@ export default function SignUp()
                                     <p id="length" className="invalid">  
                                         { special_char ? <img src="/images/tick.svg" alt="dsf" /> : <img src="/images/cross.svg" alt="dsf" /> }Password must contain 1 or more special characters.</p>
                                 </div>
-                                <button type="submit" className="btn w-100">Sign up</button>
+                                <a href="/dashboard" type="submit" className="btn w-100">Sign up</a>
                             </form>
                             <hr className="w-25 after_form" />
                             <p className="text-dark text-center w-100">Already Have an account? <Link to="/" className="signup_link" >Login</Link> </p>
